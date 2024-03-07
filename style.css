@@ -1,0 +1,42 @@
+nav{
+    background-color: aqua;
+}
+
+
+
+.container{
+    display:none;
+}
+
+
+.container2{
+    display: none;
+}
+    
+
+
+
+
+@media screen and (max-width:514px){
+    .container2{
+        display: flex;
+        gap: 50px;
+        font-size: larger;
+        padding: 20px;
+        /* display: none; */
+        } 
+
+  
+
+}
+
+@media screen and (min-width:514px){
+    .container{
+        display: flex;
+        gap: 50px;
+    font-size: larger;
+    padding: 20px;
+    }
+  
+
+}
